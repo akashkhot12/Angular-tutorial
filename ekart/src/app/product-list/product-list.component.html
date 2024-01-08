@@ -2,6 +2,6 @@
 <p>Price: {{'$'+product.price}}</p>
 <p>Color: {{product.color}}</p>
 <p>Discounted price : {{'$'+ getDiscountPrice().toFixed(2)}}</p>
-<p></p>
+<p>{{ product.inStoke > 0 ? 'Only ' + product.inStoke + ' items left': 'Not in stokes' }}</p>
 
 
