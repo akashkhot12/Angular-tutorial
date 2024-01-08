@@ -10,7 +10,8 @@ export class ProductListComponent {
     name: 'Iphone X',
     price : 789,
     color:'black',
-    discount:8.5
+    discount:8.5,
+    inStoke : 5
   }
 
   getDiscountPrice(){
