@@ -8,7 +8,12 @@ import { Component } from '@angular/core';
 export class ProductListComponent {
   product = {
     name: 'Iphone X',
-    price : '789',
-    color:'black'
+    price : 789,
+    color:'black',
+    discount:8.5
+  }
+
+  getDiscountPrice(){
+   return this.product.price-(this.product.price *this.product.discount/100)
   }
 }
