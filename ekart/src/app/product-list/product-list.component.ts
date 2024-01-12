@@ -12,7 +12,7 @@ export class ProductListComponent {
     price : 789,
     color:'black',
     discount:8.5,
-    inStoke : 10,
+    inStoke : 5,
     pImage : '../../assets/image/iphon.png'
   }
 
@@ -27,6 +27,8 @@ export class ProductListComponent {
     
   }
   incrementCartValue(){
-    this.addToCart++
+    if (this.addToCart<this.product.inStoke) {
+      this.addToCart++
+    }
   }
 }
