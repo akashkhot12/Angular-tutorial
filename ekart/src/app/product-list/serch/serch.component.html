@@ -1,5 +1,5 @@
 <div class="ekart--product--search">
-    <input class="ekart-search-product-input">
+    <input class="ekart-search-product-input"[value]="searchText" (input)="updateSearchText($event)">
     <button class="btn btn-search">Search</button>
 </div>
-<div class="ekart-serch-result-for">Search result for:<strong>Mens Wear</strong></div>
+<div class="ekart-serch-result-for">Search result for:<strong>{{searchText}}</strong></div>
