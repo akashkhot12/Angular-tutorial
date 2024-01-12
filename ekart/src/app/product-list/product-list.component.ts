@@ -21,7 +21,10 @@ export class ProductListComponent {
   }
 
   decrementCartValue(){
-    this.addToCart--
+    if (this.addToCart>0) {
+      this.addToCart--
+    }
+    
   }
   incrementCartValue(){
     this.addToCart++
