@@ -8,9 +8,9 @@
 <p>Discounted price : {{'$'+ getDiscountPrice().toFixed(2)}}</p>
 <p>{{ product.inStoke > 0 ? 'Only ' + product.inStoke + ' items left': 'Not in stocks' }}</p>
 <!-- <button [disabled]="!(product.inStoke > 0)">Buy Now</button> -->
-<button>-</button>
+<button (click)="decrementCartValue()">-</button>
 <span>{{addToCart}}</span>
-<button>+</button>
+<button (click)="incrementCartValue()">+</button>
 
 </div>
 

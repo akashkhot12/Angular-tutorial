@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './product-list.component.css'
 })
 export class ProductListComponent {
-  addToCart:Number= 0
+  addToCart:number= 0
   product = {
     name: 'Iphone X',
     price : 789,
@@ -18,5 +18,12 @@ export class ProductListComponent {
 
   getDiscountPrice(){
    return this.product.price-(this.product.price *this.product.discount/100)
+  }
+
+  decrementCartValue(){
+    this.addToCart--
+  }
+  incrementCartValue(){
+    this.addToCart++
   }
 }
