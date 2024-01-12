@@ -1,11 +1,17 @@
+<div class="ekart--product--container">
 
+    
 <img style="height: 200px;" [src]="product.pImage">
 <p>Name: {{product.name}}</p>
 <p>Price: {{'$'+product.price}}</p>
 <p>Color: {{product.color}}</p>
 <p>Discounted price : {{'$'+ getDiscountPrice().toFixed(2)}}</p>
 <p>{{ product.inStoke > 0 ? 'Only ' + product.inStoke + ' items left': 'Not in stocks' }}</p>
-<button [disabled]="!(product.inStoke > 0)">Buy Now</button>
+<!-- <button [disabled]="!(product.inStoke > 0)">Buy Now</button> -->
+<button>-</button>
+<span>{{addToCart}}</span>
+<button>+</button>
 
+</div>
 
 
