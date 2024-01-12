@@ -11,7 +11,7 @@ export class ProductListComponent {
     price : 789,
     color:'black',
     discount:8.5,
-    inStoke : 5,
+    inStoke : 0,
     pImage : '../../assets/image/iphon.png'
   }
 
