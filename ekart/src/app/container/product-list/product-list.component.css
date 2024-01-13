@@ -1,12 +1,16 @@
 .ekart--products--container{
     margin: 20px auto;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    padding: 0px 17vh;
+    padding: 0px 5vh;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+
 }
 
 .ekart--product--item{
-    width: 290px;
+    width: 220px;
     background-color: #FDFEFE;
     margin: 10px 10px;
     padding-top: 10px;
@@ -32,8 +36,8 @@
 .ekart-on-sale-tag{
     float: right;
     font-size: 14px;
-    margin-top: 10px;
-    margin-right:-10px;
+    margin-top: 2px;
+    margin-right:65px;
     padding: 5px 10px;
     background-color: #FFC000;
     color: #28282B;
@@ -50,8 +54,8 @@
 }
 
 .ekart--product--image{
-    width: 265px;
-    height: 250px;
+    width: 195px;
+    height: 150px;
 }
 .ekart--product--name{
     font-size: 14px;
