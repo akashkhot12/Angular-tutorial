@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'fetchApi';
 
-  getname(name: any){
-    alert(name)
-  }
+  value = ''
+ getValue(val:any){
+console.log(val);
+this.value = val;
+ }
 }
