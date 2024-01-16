@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'fetchApi';
 
-  getname
+  getname(){
+    alert("hello akash")
+  }
 }
