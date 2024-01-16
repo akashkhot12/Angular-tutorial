@@ -36,3 +36,37 @@
         </div>
         
 </div>
+</div>
+<br><br>
+<div class="container">
+    
+    <div class="card" (click)="counter('sub')">
+        <div class="face face1">
+            <div class="content">
+                <div class="icon">
+                    <h1>--</h1>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <div class="icon">
+                    <h1>{{count}}</h1>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="card">
+        <div (click)="counter('add')" class="face face1">
+            <div class="content">
+                <div class="icon">
+                    <h1>++</h1>
+                </div>
+            </div>
+        </div>
+        
+</div>
