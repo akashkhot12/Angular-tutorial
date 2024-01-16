@@ -33,6 +33,11 @@ body {
     transition: 0.7s;
     z-index: 1;
 }
+.container .card .icon h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 80px;
+}
 
 .container .card:nth-child(1) .icon {
     background: #e07768;
