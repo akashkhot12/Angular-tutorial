@@ -1,11 +1,4 @@
-<table>
-  <tr>
-    <td>Sr </td>
-    <td>hotels name </td>
-  </tr>
-  <tr>
-    <td>\</td>
-    <td>\</td>
-  </tr>
-
-</table>
+<div *ngIf="quote">
+  <p>{{ quote.content }}</p>
+  <p>- {{ quote.author }}</p>
+</div>
