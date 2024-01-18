@@ -6,10 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './if-else.component.css'
 })
 export class IfElseComponent {
-  show= true;
-  title= "akash khot"
+  show= 'fine';
 
   // property binding 
-  disable = false
+  // disable = false
 
 }

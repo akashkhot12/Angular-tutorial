@@ -1,4 +1,4 @@
-<h1 *ngIf="show">helo aksh khot !
+<!-- <h1 *ngIf="show">helo aksh khot !
 </h1>
 
 <h2>{{title}}</h2>
@@ -8,3 +8,27 @@
 <input type="text" disabled="{{disable}}" >
 <br><br>
 <input type="text" [value]="disable">
+
+ -->
+
+ <h1 *ngIf="show;then ifBlock else elseBlock"></h1>
+
+ <ng-template #ifBlock>
+    <h2>hello akash</h2>
+ </ng-template>
+ <ng-template #elseBlock>
+    <h2>hello akash ramnath khot</h2>
+ </ng-template>
+
+
+ <!-- how to create a multiple naming block  -->
+
+ <h1 *ngIf="show=='as';then ifBlock else elseBlock"></h1>
+
+ <ng-template #ifBlock>
+    <h2>hello akash</h2>
+ </ng-template>
+ <ng-template #elseBlock>
+    <h2>hello akash ramnath khot</h2>
+ </ng-template>
+ 
