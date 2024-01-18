@@ -11,4 +11,6 @@ export class IfElseComponent {
   // property binding 
   // disable = false
 
+  color ='red';
+
 }
