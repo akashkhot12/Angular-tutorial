@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class IfElseComponent {
   show= true;
+  title= "akash khot"
+
+  // property binding 
+  disable = false
+
 }
