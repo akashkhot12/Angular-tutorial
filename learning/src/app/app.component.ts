@@ -14,5 +14,9 @@ console.log(val);
 this.value = val;
  }
 
+ getCalled(){
+  console.warn("get called the functions");
+}
+
 
 }
