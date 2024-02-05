@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'learning-angular';
-  getclick(){
-    console.log("warning"); 
+  display:string =''
+  getValue(val:string){
+    console.warn(val);
+    this.display=val
   }
 }
