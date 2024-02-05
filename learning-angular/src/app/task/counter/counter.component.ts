@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './counter.component.css'
 })
 export class CounterComponent {
-
+count = 0;
+  counter(type:string){
+    if (type==='minus') {
+      this.count--
+    }
+   else if(type==='add'){
+    this.count++
+   }
+  }
 }
