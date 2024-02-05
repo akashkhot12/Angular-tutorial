@@ -8,15 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'fetchApi';
 
-  value = ''
- getValue(val:any){
-console.log(val);
-this.value = val;
- }
-
- getCalled(){
-  console.warn("get called the functions");
-}
-
+  getdata(val:string){
+    console.log(val); 
+  }
 
 }
