@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CounterComponent } from './task/counter/counter.component';
 import { PropertyBindingComponent } from './task/property-binding/property-binding.component';
 import { ConditionsComponent } from './task/conditions/conditions.component';
+import { LoopingComponent } from './task/looping/looping.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
     PropertyBindingComponent,
-    ConditionsComponent
+    ConditionsComponent,
+    LoopingComponent
   ],
   imports: [
     BrowserModule,
