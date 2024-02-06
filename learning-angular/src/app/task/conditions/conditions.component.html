@@ -1,1 +1,11 @@
 <p>conditions works!</p>
+
+<h1 *ngIf="show=='yes' ; then ifBlock else ElseBlock"></h1>
+
+<ng-template #ifBlock>
+    <h1>Akash khot</h1>
+</ng-template>
+<ng-template #ElseBlock>
+    <h1>sam makual</h1>
+</ng-template>
+

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './conditions.component.css'
 })
 export class ConditionsComponent {
-
+  show = "yes"
 }
