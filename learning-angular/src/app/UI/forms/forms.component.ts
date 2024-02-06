@@ -14,7 +14,11 @@ userData:any ={}
   alert("your form was summited,")
   console.log(data);
   this.userData = data
-  
-  
+}
+
+display = true
+
+toggle(){
+this.display = !this.display
 }
 }
