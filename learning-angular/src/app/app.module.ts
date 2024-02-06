@@ -7,6 +7,7 @@ import { CounterComponent } from './task/counter/counter.component';
 import { PropertyBindingComponent } from './task/property-binding/property-binding.component';
 import { ConditionsComponent } from './task/conditions/conditions.component';
 import { LoopingComponent } from './task/looping/looping.component';
+import { NestedLoopComponent } from './task/nested-loop/nested-loop.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LoopingComponent } from './task/looping/looping.component';
     CounterComponent,
     PropertyBindingComponent,
     ConditionsComponent,
-    LoopingComponent
+    LoopingComponent,
+    NestedLoopComponent
   ],
   imports: [
     BrowserModule,
