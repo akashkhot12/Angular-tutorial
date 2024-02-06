@@ -9,6 +9,8 @@ import { ConditionsComponent } from './task/conditions/conditions.component';
 import { LoopingComponent } from './task/looping/looping.component';
 import { NestedLoopComponent } from './task/nested-loop/nested-loop.component';
 import { HeaderComponent } from './UI/header/header.component';
+import { FormsModule } from '@angular/forms';
+import { FormsComponent } from './UI/forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { HeaderComponent } from './UI/header/header.component';
     ConditionsComponent,
     LoopingComponent,
     NestedLoopComponent,
-    HeaderComponent
+    HeaderComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
