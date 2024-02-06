@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './looping.component.css'
 })
 export class LoopingComponent {
-
+   users = ['Anil','Bhaskar','Namdeo','Akash']
 }
