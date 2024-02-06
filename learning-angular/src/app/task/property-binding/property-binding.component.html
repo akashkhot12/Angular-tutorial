@@ -1,5 +1,12 @@
 <p>property-binding works!</p>
 <!-- iterpollation -->
-<input type="text" name="user-name" value="{{name}}" disabled ={{disable}}> 
+<!-- <input type="text" name="user-name" value="{{name}}" disabled ={{disable}}>  -->
 <!-- property binding -->
-<input type="text" name="user-name" [value]="name" [disabled]="disable">
+<!-- <input type="text" name="user-name" [value]="name" [disabled]="disable"> -->
+
+
+<h1 [style.color] ="color">{{title}}</h1>
+<h1 [style.color] ="color">Heading</h1>
+
+<button (click)="colorChange()">click me</button>
+

@@ -6,6 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './property-binding.component.css'
 })
 export class PropertyBindingComponent {
-  name = 'peter'
-  disable = false
+  // name = 'peter'
+  // disable = false
+  title = "akash"
+  color = 'red'
+
+  colorChange(){
+    this.color = "green";
+    this.title = "khot"
+  }
 }
