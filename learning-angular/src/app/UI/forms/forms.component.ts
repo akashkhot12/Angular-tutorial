@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 
 @Component({
@@ -7,8 +8,13 @@ import { Component } from '@angular/core';
   styleUrl: './forms.component.css'
 })
 export class FormsComponent {
-getdata(){
-  alert("your form was summited")
+userData:any ={}
+
+  getdata(data:NgForm){
+  alert("your form was summited,")
+  console.log(data);
+  this.userData = data
+  
   
 }
 }
