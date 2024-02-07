@@ -11,7 +11,6 @@ export class FormsComponent {
 userData:any ={}
 
   getdata(data:NgForm){
-  alert("your form was summited,")
   console.log(data);
   this.userData = data
 }
