@@ -18,6 +18,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
+import { ToDoListComponent } from './mini-Pro/to-do-list/to-do-list.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {MatButtonModule} from '@angular/material/button';
     LoopingComponent,
     NestedLoopComponent,
     HeaderComponent,
-    FormsComponent
+    FormsComponent,
+    ToDoListComponent
   ],
   imports: [
     BrowserModule,
