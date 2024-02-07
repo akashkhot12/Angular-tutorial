@@ -11,6 +11,7 @@ import { NestedLoopComponent } from './task/nested-loop/nested-loop.component';
 import { HeaderComponent } from './UI/header/header.component';
 import { FormsModule } from '@angular/forms';
 import { FormsComponent } from './UI/forms/forms.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormsComponent } from './UI/forms/forms.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
