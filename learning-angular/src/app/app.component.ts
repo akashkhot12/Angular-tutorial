@@ -12,4 +12,7 @@ export class AppComponent {
     console.warn(val);
     this.display=val
   }
+
+
+  data= 10;
 }
