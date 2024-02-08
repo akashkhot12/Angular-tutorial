@@ -19,6 +19,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import { ToDoListComponent } from './mini-Pro/to-do-list/to-do-list.component';
+import { ChildComponent } from './parentChild/child/child.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ToDoListComponent } from './mini-Pro/to-do-list/to-do-list.component';
     NestedLoopComponent,
     HeaderComponent,
     FormsComponent,
-    ToDoListComponent
+    ToDoListComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
