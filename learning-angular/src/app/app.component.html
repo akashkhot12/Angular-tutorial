@@ -26,4 +26,8 @@
 <!-- <app-child [item]="data"></app-child>
 <button (click)="changeValue()">change value</button> -->
 
-<app-user-details></app-user-details>
+
+
+<ul *ngFor="let user of userDetails">
+    <app-user-details [item]='user'></app-user-details>
+</ul>
