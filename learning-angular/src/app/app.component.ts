@@ -15,4 +15,8 @@ export class AppComponent {
 
 
   data= 10;
+
+  changeValue(){
+    this.data= Math.floor(Math.random()*10)
+  }
 }
