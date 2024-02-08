@@ -8,5 +8,5 @@ import { Component,Input } from '@angular/core';
 
 export class ChildComponent {
  constructor(){}
- @ Input() data = 0;
+ @ Input() item = 0;
 }
