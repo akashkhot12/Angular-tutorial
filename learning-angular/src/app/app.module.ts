@@ -20,6 +20,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import { ToDoListComponent } from './mini-Pro/to-do-list/to-do-list.component';
 import { ChildComponent } from './parentChild/child/child.component';
+import { UserDetailsComponent } from './task/user-details/user-details.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ChildComponent } from './parentChild/child/child.component';
     HeaderComponent,
     FormsComponent,
     ToDoListComponent,
-    ChildComponent
+    ChildComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,
