@@ -27,5 +27,9 @@ export class AppComponent {
     {name:"laxman",email:"lax@gmail.com"},
   ]
 
-
+  s="x"
+  updateData(item:string){
+    console.log(item);
+    this.s = item
+  }
 }

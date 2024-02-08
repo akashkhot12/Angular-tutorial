@@ -21,6 +21,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { ToDoListComponent } from './mini-Pro/to-do-list/to-do-list.component';
 import { ChildComponent } from './parentChild/child/child.component';
 import { UserDetailsComponent } from './task/user-details/user-details.component';
+import { ChildPComponent } from './childParent/child-p/child-p.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { UserDetailsComponent } from './task/user-details/user-details.component
     FormsComponent,
     ToDoListComponent,
     ChildComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    ChildPComponent
   ],
   imports: [
     BrowserModule,

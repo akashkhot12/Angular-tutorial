@@ -27,7 +27,11 @@
 <button (click)="changeValue()">change value</button> -->
 
 
-
+<!-- one component to another component dat show 
 <ul *ngFor="let user of userDetails">
     <app-user-details [item]='user'></app-user-details>
-</ul>
+</ul> -->
+
+<app-child-p (updateDataEvent)="updateData($event)"></app-child-p>
+<br><br>
+<h2>{{s}}</h2>
