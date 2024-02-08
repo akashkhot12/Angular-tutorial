@@ -19,4 +19,13 @@ export class AppComponent {
   changeValue(){
     this.data= Math.floor(Math.random()*10)
   }
+
+  userDetails = [
+    {name:"akash",email:"aksh@gmail.com"},
+    {name:"vikash",email:"vik@gmail.com"},
+    {name:"ashik",email:"ash@gmail.com"},
+    {name:"laxman",email:"lax@gmail.com"},
+  ]
+
+
 }
