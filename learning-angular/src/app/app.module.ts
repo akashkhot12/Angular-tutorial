@@ -23,7 +23,6 @@ import { ChildComponent } from './parentChild/child/child.component';
 import { UserDetailsComponent } from './task/user-details/user-details.component';
 import { ChildPComponent } from './childParent/child-p/child-p.component';
 import { ToWayComponent } from './toWayBinding/to-way/to-way.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,7 +48,7 @@ import { ToWayComponent } from './toWayBinding/to-way/to-way.component';
     MatSlideToggleModule,
     MatButtonModule, 
     MatDividerModule,
-     MatIconModule
+     MatIconModule,
   ],
   providers: [
     provideAnimationsAsync()

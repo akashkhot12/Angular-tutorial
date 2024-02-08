@@ -32,4 +32,6 @@ export class AppComponent {
     console.log(item);
     this.s = item
   }
+
+  name:any;
 }
