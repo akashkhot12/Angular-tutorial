@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class PipesComponent {
   title = "hello this is akash khot"
 
+  today = Date();
   toUpperCase(title:string){
     return title.toUpperCase();
   }
