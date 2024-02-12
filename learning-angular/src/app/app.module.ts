@@ -24,6 +24,9 @@ import { UserDetailsComponent } from './task/user-details/user-details.component
 import { ChildPComponent } from './childParent/child-p/child-p.component';
 import { ToWayComponent } from './toWayBinding/to-way/to-way.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { PiperFilePipe } from './piper-file.pipe';
+import { PipePipe } from './piperFile/pipe.pipe';
+import { FormComponent } from './forms/form/form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +42,10 @@ import { PipesComponent } from './pipes/pipes.component';
     UserDetailsComponent,
     ChildPComponent,
     ToWayComponent,
-    PipesComponent
+    PipesComponent,
+    PiperFilePipe,
+    PipePipe,
+    FormComponent
   ],
   imports: [
     BrowserModule,
