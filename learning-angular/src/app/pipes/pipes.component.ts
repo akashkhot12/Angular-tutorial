@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class PipesComponent {
   title = "hello this is akash khot"
 
+  toUpperCase(title:string){
+    return title.toUpperCase();
+  }
 }
