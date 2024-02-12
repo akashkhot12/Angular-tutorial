@@ -1,9 +1,9 @@
-<form #loginForm='ngform'>
+<form #myform='ngForm' (ngSubmit)="showContent(myform)">
     <br><br>
     <label for="">Name</label><br>
-    <input type="text" name="name" id="" placeholder="enter your name ">
+    <input type="text" name="name" id="" ngModel placeholder="enter your name ">
     <br><br>
     <label for="">password</label><br>
-    <input type="password" name="" id="" placeholder="enter you password">
+    <input type="password" name="" id="" ngModel placeholder="enter you password">
     <button type="submit">Submit</button>
 </form>

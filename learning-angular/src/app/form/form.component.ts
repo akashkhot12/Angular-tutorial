@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './form.component.css'
 })
 export class FormComponent {
-
+  showContent(item:any){
+    console.log(item.value);
+    
+  }
 }
