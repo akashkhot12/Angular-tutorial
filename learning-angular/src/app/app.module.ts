@@ -9,7 +9,6 @@ import { ConditionsComponent } from './task/conditions/conditions.component';
 import { LoopingComponent } from './task/looping/looping.component';
 import { NestedLoopComponent } from './task/nested-loop/nested-loop.component';
 import { HeaderComponent } from './UI/header/header.component';
-import { FormsModule } from '@angular/forms';
 import { FormsComponent } from './UI/forms/forms.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
@@ -24,9 +23,9 @@ import { UserDetailsComponent } from './task/user-details/user-details.component
 import { ChildPComponent } from './childParent/child-p/child-p.component';
 import { ToWayComponent } from './toWayBinding/to-way/to-way.component';
 import { PipesComponent } from './pipes/pipes.component';
-import { PiperFilePipe } from './piper-file.pipe';
 import { PipePipe } from './piperFile/pipe.pipe';
-import { FormComponent } from './forms/form/form.component';
+import { FormComponent } from './form/form.component';
+import { FormsModule } from "@angular/forms";
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,20 +42,19 @@ import { FormComponent } from './forms/form/form.component';
     ChildPComponent,
     ToWayComponent,
     PipesComponent,
-    PiperFilePipe,
     PipePipe,
-    FormComponent
+    FormComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
     NgbModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatButtonModule, 
     MatDividerModule,
      MatIconModule,
+     FormsModule 
   ],
   providers: [
     provideAnimationsAsync()
