@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CounterComponent } from './task/counter/counter.component';
@@ -26,6 +25,9 @@ import { PipesComponent } from './pipes/pipes.component';
 import { PipePipe } from './piperFile/pipe.pipe';
 import { FormComponent } from './form/form.component';
 import { FormsModule } from "@angular/forms";
+import { ReactiveComponent } from './reactive/reactive.component';
+import { FormControl,FormGroup,FormControlName } from "@angular/forms";
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,6 +46,7 @@ import { FormsModule } from "@angular/forms";
     PipesComponent,
     PipePipe,
     FormComponent,
+    ReactiveComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +57,10 @@ import { FormsModule } from "@angular/forms";
     MatButtonModule, 
     MatDividerModule,
      MatIconModule,
-     FormsModule 
+     FormsModule ,
+     FormControl,
+     FormGroup,
+     ReactiveFormsModule
   ],
   providers: [
     provideAnimationsAsync()

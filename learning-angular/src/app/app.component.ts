@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -34,4 +35,15 @@ export class AppComponent {
   }
 
   name:any;
+
+  newTaskForm = new FormGroup({
+    name:new FormControl(' '),
+    password:new FormControl(' ')
+  })
+
+  loginUSer(){
+    console.log(this.newTaskForm.value);
+    
+  }
+
 }
