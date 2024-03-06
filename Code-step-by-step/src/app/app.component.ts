@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Code-step-by-step';
+
+  getName(name:any){
+    alert(name)
+  }
 }
