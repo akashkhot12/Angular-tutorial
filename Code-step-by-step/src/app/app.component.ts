@@ -12,4 +12,10 @@ export class AppComponent {
     console.log(name);
     
   }
+
+
+  getValue(val:string){
+    console.log(val);
+    
+  }
 }
