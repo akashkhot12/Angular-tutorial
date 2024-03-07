@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'Code-step-by-step';
 
   getName(name:any){
-    alert(name)
+    console.log(name);
+    
   }
 }
