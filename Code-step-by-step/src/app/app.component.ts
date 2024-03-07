@@ -13,9 +13,10 @@ export class AppComponent {
     
   }
 
+  getFinal = ''
 
   getValue(val:string){
     console.log(val);
-    
+    this.getFinal = val;
   }
 }
