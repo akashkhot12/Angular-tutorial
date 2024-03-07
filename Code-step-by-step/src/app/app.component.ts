@@ -19,4 +19,10 @@ export class AppComponent {
     console.log(val);
     this.getFinal = val;
   }
+
+  count = 0;
+
+  counter(type:string){
+    type ==='add'?this.count++:this.count--
+  }
 }
