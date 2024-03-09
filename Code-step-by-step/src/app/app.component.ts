@@ -28,6 +28,7 @@ export class AppComponent {
 
 
   userDetsils = [
-    {name:"akash"}
+    {name:"akash",email:"akashkhot03@gmail.com",phone:4342},
+    {name:"lokesh",email:"lokesh@htt.com",phone:4522}
   ]
 }
